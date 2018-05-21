@@ -1,5 +1,4 @@
-
-function steam() {
+function even() {
 	let min = parseInt(process.argv[2]);
 	let max = parseInt(process.argv[3]);
 	let count = [];
@@ -10,4 +9,4 @@ function steam() {
 	}
 	return count;
 }
-console.log(steam());
+console.log(even());
