@@ -1,11 +1,8 @@
-//const arrayObj = require('./users');
 class UserControl {
 	constructor(userArray) {
 		this.userArray = userArray;
 	}
-
 	findAll(object, limit) {
-		// let findAll = [];
 		return this.userArray.filter((item, index) => {
 			const prepItem = item[Object.keys(object)[0]];
 			const prepObject = Object.values(object)[0];
