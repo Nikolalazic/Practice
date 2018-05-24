@@ -40,18 +40,11 @@ class UserControl {
 		}
 	}
 
-
 	remove(index) {
 		const removeUser = this.userArray.splice(this.userArray[index], 1);
 		this.userArray.push(removeUser);
 	}
 }
-module.exports = UserControl;
-//const newArray = new UserControl(arrayObj);
 
-// console.log(newArray.findByIndex(2));
-//console.log(newArray.findById("user.deactivated"));
-//console.log(newArray.add("Neki novi id", "Nikola Lazic"));
-//console.log(newArray.remove(4));
-//console.log(newArray.findAll({customerIo: "YES",}, 1));
-//console.log(newArray.update(2, {"name": "dragan",}));
+module.exports = UserControl;
+
