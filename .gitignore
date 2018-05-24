@@ -2,7 +2,7 @@
 
 # Webstorm req files
 /.idea
-
+/node_modules
 # testing
 /coverage
 
