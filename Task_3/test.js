@@ -17,12 +17,9 @@ test.add({id: "8", name: "Suzana", lastName: "Lazic", userName:"Suza"});
 // test.remove(1);
 // console.log('------------------------------')
 // console.log(test.findAll({lastName: "Lazic"}, 5));
-
 //console.log(test.findById("7"));
-
-console.log(test.update(2, {borivoje:"Marinko"}));
-
- console.log(test.findAll({lastName: "Lazic"}, 10));
+console.log(test.update(2, {name:"Marinko"}));
+console.log(test.findAll({lastName: "Lazic"}, 10));
 
 
 
