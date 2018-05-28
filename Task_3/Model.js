@@ -1,4 +1,3 @@
-// const arrayUsers = require('./users');
 const fs = require('fs');
 
 class Model {
