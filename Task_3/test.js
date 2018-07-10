@@ -1,7 +1,6 @@
 const  UserControl  = require('./Model');
 const jsonTest = [];
-const test = new UserControl("family", jsonTest);
-
+const test = new UserControl("dule", jsonTest);
 // add objects
 test.add({id: "1", name: "Nikola", lastName: "Lazic", userName:"Niki"});
 test.add({id: "2", name: "Dejan", lastName: "Lazic", userName:"Deja"});
